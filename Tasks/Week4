@@ -1,0 +1,54 @@
+# 🏠 Smart Home Project – Week 4 Tasks
+
+## 🎯 Goal of the Week
+Finalize the system, perform data analysis, generate reports, and prepare the final demo.
+
+---
+
+## 👥 Team Members and Roles
+
+| Member | Role | Deliverables |
+|---------|------|--------------|
+| **Diaa** | Integration & Testing Lead | Review all code + finalize integration |
+| **Mohamed** | GUI Designer (JavaFX) | Improve GUI & create Reports view |
+| **Ola** | Database Analyst | Write SQL queries for analytics (AVG, COUNT, GROUP BY) |
+| **Yara** | QA Tester | Test Auto Mode & handle exceptions |
+| **Mazen** | Assistant Enhancer | Add voice notifications & warnings |
+| **Menna** | Data Analyst | Generate charts and energy usage reports (JFreeChart or JavaFX charts) |
+
+---
+
+## 📦 Deliverables for Week 4
+
+| File | Description | Responsible |
+|---------|-------------|-------------|
+| `src/com/smarthome/analysis/DataAnalyzer.java` | Energy usage analysis | Menna |
+| `src/com/smarthome/view/ReportsView.fxml` | Reports GUI page | Mohamed |
+| `src/com/smarthome/view/ReportsController.java` | Reports page controller | Mohamed |
+| `src/com/smarthome/controller/HomeController.java` | Final system coordination | Diaa |
+| `src/com/smarthome/assistant/VoiceAssistant.java` | Voice alerts & warnings | Mazen |
+| `src/com/smarthome/database/DatabaseManager.java` | SQL queries for reports | Ola |
+
+---
+
+## 🗓️ Week 4 Timeline
+
+| Day | Task | Member |
+|---------|------|---------|
+| Mon | Refactor & clean code | Diaa |
+| Tue | Enhance GUI & add Reports page | Mohamed |
+| Wed | Write analytics queries | Ola |
+| Thu | Test Auto Mode & fix bugs | Yara |
+| Fri | Add voice alerts + data reports | Mazen, Menna |
+| Sat | Final demo & presentation prep | Full Team |
+
+---
+
+## ✅ End of Week Checklist
+
+- [ ] Code fully reviewed & tested  
+- [ ] GUI (JavaFX) polished with reports page  
+- [ ] SQL analytics working  
+- [ ] Voice alerts operational  
+- [ ] Charts generated successfully  
+- [ ] Final demo and presentation ready  

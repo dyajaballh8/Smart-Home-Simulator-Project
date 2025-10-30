@@ -1,0 +1,52 @@
+# 🏠 Smart Home Project – Week 3 Tasks
+
+## 🎯 Goal of the Week
+Integrate all modules together and activate smart features (GUI ↔ Backend ↔ Voice Assistant).
+
+---
+
+## 👥 Team Members and Roles
+
+| Member | Role | Deliverables |
+|---------|------|--------------|
+| **Diaa** | Integrator | Connect backend logic with GUI (JavaFX Controllers) |
+| **Mohamed** | GUI Developer (JavaFX) | Develop Dashboard screen (FXML + Controller) |
+| **Ola** | Database Developer | Store device events automatically in DB |
+| **Yara** | Logic Developer | Implement Auto Mode (time / temperature based) |
+| **Mazen** | Smart Assistant Developer | Add voice commands using FreeTTS |
+| **Menna** | Data Analyst | Create Logs & Statistics GUI (JavaFX Charts) |
+
+---
+
+## 📦 Deliverables for Week 3
+
+| File | Description | Responsible |
+|---------|-------------|-------------|
+| `src/com/smarthome/view/DashboardView.fxml` | Dashboard interface | Mohamed |
+| `src/com/smarthome/view/DashboardController.java` | Dashboard controller (device logic) | Mohamed, Diaa |
+| `src/com/smarthome/assistant/VoiceAssistant.java` | Voice interface (FreeTTS) | Mazen |
+| `src/com/smarthome/analysis/LogsPage.java` | JavaFX chart page for logs | Menna |
+| `src/com/smarthome/controller/HomeController.java` | Integrated control logic | Yara, Diaa |
+| `src/com/smarthome/database/DatabaseManager.java` | Auto logging of device events | Ola |
+
+---
+
+## 🗓️ Week 3 Timeline
+
+| Day | Task | Member |
+|---------|------|---------|
+| Mon-Tue | Connect GUI with backend (JavaFX controllers) | Diaa, Mohamed |
+| Wed | Activate Auto Mode logic | Yara |
+| Thu | Add Voice Assistant features | Mazen |
+| Fri | Link Logs & Charts (JavaFX charts) | Menna |
+| Sat | Integration testing | Full Team |
+
+---
+
+## ✅ End of Week Checklist
+
+- [ ] Dashboard fully functional (JavaFX)  
+- [ ] Auto Mode active  
+- [ ] Voice assistant responding  
+- [ ] Logs and charts displayed  
+- [ ] All modules synchronized  

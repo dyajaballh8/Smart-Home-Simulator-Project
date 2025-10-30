@@ -1,41 +1,54 @@
-🧩 Smart Home Project – Week 2 Tasks
-🎯 Goal of the Week
+# 🏠 Smart Home Project – Week 2 Tasks
 
+## 🎯 Goal of the Week
 Implement the core classes (OOP structure) and integrate the system with the database (MySQL + JDBC).
 
-👥 Team Members and Roles
-Member	Role	Deliverables
-Diaa	Core Classes Developer	Implement main OOP classes (Device, Light, AC, Door, Room, User)
-Mohamed	GUI Developer	Develop Login GUI and basic navigation
-Ola	Database Developer	Create and connect MySQL database via JDBC
-Yara	System Logic Developer	Implement control methods (turnOn, turnOff, getStatus)
-Mazen	Smart Assistant Developer	Prepare text-based assistant commands
-Menna	Data Logging	Build LogManager class to store logs (CSV + DB)
-📦 Deliverables for Week 2
-File	Description	Responsible
-src/com/smarthome/model/*.java	Core device and user classes	Diaa
-src/com/smarthome/database/DatabaseManager.java	JDBC connection & CRUD operations	Ola
-src/com/smarthome/view/LoginFrame.java	Login GUI	Mohamed
-src/com/smarthome/controller/HomeController.java	Control logic for devices	Yara
-src/com/smarthome/assistant/TextAssistant.java	Simple text-command interface	Mazen
-src/com/smarthome/analysis/LogManager.java	Save and load logs	Menna
-🗓️ Week 2 Timeline
-Day	Task	Member
-Mon-Tue	Build core classes	Diaa
-Wed	Create DB connection (JDBC)	Ola
-Thu	Develop Login GUI	Mohamed
-Fri	Implement control logic & text assistant	Yara, Mazen
-Sat	Integrate & test saving logs	Menna + Diaa
-✅ End-of-Week Checklist
+---
 
- Core classes functional
+## 👥 Team Members and Roles
 
- Database connected
+| Member | Role | Deliverables |
+|---------|------|--------------|
+| **Diaa** | Core Classes Developer | Implement main OOP classes (Device, Light, AC, Door, Room, User) |
+| **Mohamed** | GUI Developer (JavaFX) | Develop Login and Register screens (FXML + Controller) |
+| **Ola** | Database Developer | Create and connect MySQL database via JDBC |
+| **Yara** | System Logic Developer | Implement device control methods (turnOn, turnOff, getStatus) |
+| **Mazen** | Smart Assistant Developer | Prepare text-based assistant commands |
+| **Menna** | Data Logging | Build LogManager class to store logs (CSV + DB) |
 
- Login GUI working
+---
 
- Text assistant basic commands operational
+## 📦 Deliverables for Week 2
 
- Logs stored correctly
+| File | Description | Responsible |
+|---------|-------------|-------------|
+| `src/com/smarthome/model/*.java` | Core device and user classes | Diaa |
+| `src/com/smarthome/database/DatabaseManager.java` | JDBC connection & CRUD operations | Ola |
+| `src/com/smarthome/view/LoginView.fxml` | Login GUI (JavaFX FXML) | Mohamed |
+| `src/com/smarthome/view/LoginController.java` | Controller for Login screen | Mohamed |
+| `src/com/smarthome/controller/HomeController.java` | Control logic for devices | Yara |
+| `src/com/smarthome/assistant/TextAssistant.java` | Simple text-command interface | Mazen |
+| `src/com/smarthome/analysis/LogManager.java` | Save and load logs | Menna |
 
- System builds without errors
+---
+
+## 🗓️ Week 2 Timeline
+
+| Day | Task | Member |
+|---------|------|---------|
+| Mon-Tue | Build core classes | Diaa |
+| Wed | Setup MySQL + JDBC connection | Ola |
+| Thu | Create Login and Register GUI (JavaFX) | Mohamed |
+| Fri | Implement control logic & text assistant | Yara, Mazen |
+| Sat | Test logging & integration | Menna + Diaa |
+
+---
+
+## ✅ End of Week Checklist
+
+- [ ] Core classes functional  
+- [ ] Database connected  
+- [ ] JavaFX Login & Register GUI working  
+- [ ] Text assistant commands operational  
+- [ ] Logs stored successfully  
+- [ ] System builds without errors  
