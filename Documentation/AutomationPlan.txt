@@ -1,1 +1,28 @@
+# Automation Plan – Smart Home System
+
+This document defines the automatic actions that the Smart Home system performs
+based on time, temperature, and user settings.
+
+---
+
+## Time-based Automation
+1. If current time = 7:00 AM → turn ON lights and open curtains  
+2. If current time = 11:00 PM → turn OFF all lights and close curtains  
+
+---
+
+## Temperature-based Automation
+3. If room temperature > 30°C → turn ON air conditioner  
+4. If room temperature < 20°C → turn ON heater  
+5. If room temperature between 20°C and 30°C → turn OFF both AC and heater  
+
+---
+
+## Mode Control
+6. Auto Mode can be toggled ON/OFF from Dashboard  
+
+---
+
+## Logic Implementation (Conceptual Pseudocode)
+
 
